@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(75, 75, 143);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(133, 133, 134);
+            font-size: 1.0 5rem;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+        }
+
+        .first-section>div {
+            width: 35%;
+        }
+
+        .left-section {
+            font-size: 1.5rem;
+
+        }
+
+        .left-section .buttons {
+            padding: 50px 0;
+        }
+ 
+
+        .left-section .btn {
+            border: 2px solid white;
+            background-color: #593d8a;
+            color: white;
+            font-size: 1rem;
+            padding: 12px;
+        }
+
+
+        .right-section img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(60, 73, 222);
+        }
+
+        #element {
+
+            color: rgb(60, 73, 222);
+        }
+
+        main hr {
+            background: #9c97f1;
+            height: 1.2px;
+            border: 0;
+            margin: 40px 85px;
+        }
+
+        .second-section {
+
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .second-section h1 {
+            font-size: 1.9rem;
+            margin: 57px 0px;
+        }
+
+        .second-section .box {
+            background: white;
+            height: 2px;
+            width: 79vw;
+            
+            display: flex;
+
+        }
+
+        .second-section .vertical {
+            background-color: white;
+            height: 92px;
+            width: 1px;
+            margin: 0 150px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: 7px;
+
+        }
+
+        .vertical-title {
+            margin: 60px 0px;
+            width: 190px;
+
+        }
+
+        .vertical-desc {
+            color: gray;
+            font-size: 10px;
+            margin: -43px 0px;
+            position: relative;
+            width: 164px;
+
+        }
+
+        footer {
+            background-color: rgb(75, 75, 143);
+        }
+
+        .footer {
+            display: flex;
+            height: 185px;
+            padding: 23px 110px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            padding: 12px 0;
+            font-size: 0.7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">"Saurabh"s Portfolio</div>
+            <div class="right ">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hello, My name is <span class="purple">Saurabh Bhatt</span>
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="SaurabhBhatt_Resume.pdf"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/Bhattsaurabh"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <img src="img1.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="second-section">
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="work.png" alt="">
+                    <div class="vertical-title">
+                        Class-IX-X (2014-16)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, sint?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="work.png" alt="">
+                    <div class="vertical-title">
+                        Class-XI-XII (2017-19)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, sint?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="work.png" alt="">
+                    <div class="vertical-title">
+                        BCA (2019-22)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, sint?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="work.png" alt="">
+                    <div class="vertical-title">
+                        MCA (2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, sint?
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Saurabh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.saurabhportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Programmer', 'and a Learner.'],
+            typeSpeed: 50,
+        });
+
+    </script>
+</body>
+
+</html>
